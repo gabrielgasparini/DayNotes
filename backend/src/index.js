@@ -1,5 +1,7 @@
 const express = require('express');
 const app = express();
+require('./config/dbConfig');
+
 
 app.use(express.json());
 
